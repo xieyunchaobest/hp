@@ -8,7 +8,7 @@
 		<driver-class>com.mysql.jdbc.Driver</driver-class>
 		<username></username>
 		<password></password>
-		<url>jdbc:mysql://60.30.63.62:321101/wssdb</url>
+		<url>jdbc:mysql:///wssdb</url>
 		<pool-maxActive>100</pool-maxActive>
 		<pool-maxWait>200</pool-maxWait>
 		<pool-maxIdle>10</pool-maxIdle>

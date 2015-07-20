@@ -108,7 +108,7 @@ public class ConnectionFactory {
 		ds.setMaxActive(Integer.parseInt(connDef.getPoolMaxActive()));
 		ds.setMaxIdle(Integer.parseInt(connDef.getPoolMaxIdle()));
 		ds.setMaxWait(Integer.parseInt(connDef.getPoolMaxWait()));
-		ds.setValidationQuery("select * from dual");
+		ds.setValidationQuery("select 1");
 		ds.setTestOnBorrow(true);
 		ds.setTestOnReturn(true);
 		ds.setTestWhileIdle(true);

@@ -26,6 +26,5 @@
 	<classpathentry kind="lib" path="phonesale/WEB-INF/lib/wfsapimsg.jar"/>
 	<classpathentry kind="lib" path="phonesale/WEB-INF/lib/wsdl4j-1.5.1.jar"/>
 	<classpathentry kind="lib" path="phonesale/WEB-INF/lib/xml4MOS.jar"/>
-	<classpathentry kind="lib" path="phonesale/WEB-INF/lib/servlet-api.jar"/>
 	<classpathentry kind="output" path="phonesale/WEB-INF/classes"/>
 </classpath>
