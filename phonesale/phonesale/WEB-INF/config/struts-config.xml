@@ -124,6 +124,11 @@
 			scope="request">
 		</action>
 		
+		<action path="/tm/hpAction"
+			parameter="method" type="com.cattsoft.hp.struts.HpAction"
+			scope="request">
+		</action>
+		
 		<!-- 测试web_mos与其他系统的联通 -->
 		<action path="/im/InterAction"
 			parameter="method" type="com.cattsoft.im.struts.InterAction"
