@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+   <connection-config default="hp-db">
+
+	<!--<connection name="weblogic-pool">
+		<datasource>ds/bw</datasource>
+	</connection>-->
+ 
+ 	<connection name="hp-db">
+		<driver-class>oracle.jdbc.driver.OracleDriver</driver-class>
+		<username></username>
+		<password></password>
+		<url></url>
+		
+		<pool-maxActive>100</pool-maxActive>
+		<pool-maxWait>120000</pool-maxWait>
+		<pool-maxIdle>10</pool-maxIdle>
+		
+	</connection> 
+ 	
+</connection-config>
